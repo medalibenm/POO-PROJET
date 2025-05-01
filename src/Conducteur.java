@@ -1,10 +1,10 @@
 public class Conducteur {
-    private final utilisateur user;
+    private final Utilisateur user;
     private String nomVoiture;
     private int placesDisponibles;
     private Itineraire itineraire;
 
-    public Conducteur(utilisateur user, String nomVoiture,
+    public Conducteur(Utilisateur user, String nomVoiture,
                       int places, Itineraire itineraire) {
         this.user = user;
         this.nomVoiture = nomVoiture;
