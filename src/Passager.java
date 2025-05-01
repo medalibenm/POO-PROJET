@@ -1,8 +1,8 @@
 public class Passager {
-    private final utilisateur user;
+    private final Utilisateur user;
     private Itineraire itineraire;
 
-    public Passager(utilisateur user, Itineraire itineraire) {
+    public Passager(Utilisateur user, Itineraire itineraire) {
         this.user = user;
         this.itineraire = itineraire;
     }
